@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Sanchez|Poppins|Merienda");
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: "Sanchez", Helvetica, Arial, sans-serif;
+  background-color: #000000;
+}
+
+h1 {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: #8a2be2;
+}
+
+p {
+  font-family: "Merienda", sans-serif;
+  color: #ffffff;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.navbar {
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  z-index: 100;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 10px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.homepage {
+  padding: 15% 0 0 0;
+  display: flex;
+  background-color: #000000;
+}
+
+#scrollIcon {
+  margin-top: 200px;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #8a2be2;
+  border: solid 2px #8a2be2;
+  border-radius: 50%;
+}
