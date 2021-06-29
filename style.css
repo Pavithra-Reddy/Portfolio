@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: "Sanchez", Helvetica, Arial, sans-serif;
-  background-color: #000000;
+  background-color: #1c1c1c;
 }
 
 h1 {
@@ -28,32 +28,42 @@ p {
   background-color: transparent;
   border: none;
   z-index: 100;
+  margin: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
   font-weight: 500;
   font-size: 1em;
-  margin: 10px 5px 5px 5px;
   border-radius: 5px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #ffffff;
+  color: #8a2be2;
+}
+
+#nav-resume {
   border: 1px solid #ffffff;
+  border-radius: 5px;
+  border-color: #8a2be2;
 }
 
 .homepage {
   padding: 15% 0 0 0;
   display: flex;
-  background-color: #000000;
+  background-color: #1c1c1c;
 }
 
 #scrollIcon {
   margin-top: 200px;
   padding: 10px;
   font-size: 1.5em;
-  color: #8a2be2;
-  border: solid 2px #8a2be2;
+  color: #ffffff;
+  border: solid 2px #ffffff;
   border-radius: 50%;
+}
+
+#scrollIcon:hover {
+  color: #8a2be2;
+  border-color: #8a2be2;
 }
