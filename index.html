@@ -7,17 +7,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Pavithra Muthakapalli</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js'></script>
+    <script src="./script.js"></script>
   </head>
 
   <body>
     <!-- Begin Navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
+          <a id = "navheader" class="navbar-brand" href="#">Pavithra Muthakapalli</a>
     	    <ul class="nav navbar-nav navbar-right">
     	        <li id="nav-about"><a href="#about">About</a></li>
               <li id="nav-experience"><a href="#experience">Experience</a></li>
     	        <li id="nav-projects"><a href="#projects">Projects</a></li>
     	        <li id="nav-contact"><a href="#contact">Contact</a></li>
-              <li id="nav-resume"><a href="https://drive.google.com/file/d/1xt2S5RkTozb8k-mJKbQZ696L9HjYplIr/view?usp=sharing" target = "_blank">Resume</a></li>
+              <li id="nav-resume"><a href="#" target = "_blank">Resume</a></li>
           </ul>
     </div>
     <!-- End Navbar -->
@@ -26,7 +30,7 @@
     <div class="content">
 
       <!-- Begin Home Page-->
-      <div class="homepage">
+      <div id = "homepage" class="homepage">
         <div class="col-xs-12">
   	        <div class="text-center lead">
               <h1>Hi, I'm Pavithra</h1>
@@ -40,16 +44,15 @@
       <!-- End Home Page-->
 
       <!-- About Page Begin -->
-        <div class="about">
+        <div id = "about" class="about">
           <div class="about-content">
-            <div class="col-xs-7">
+            <div class = "row-left">
+            <div class="col-md-6">
               <div class="about-heading text-center lead">
                 <h2>About Me</h2>
               </div>
-
                 <p>I'm a Software Developer at Kony Labs. I have done my undergraduation in Computer Science and Engineering from Anurag Group of Institutions. Outside work, I enjoy playing badminton, table tennis and foosball.</p>
                 <p>Some Of My Skills - </p>
-
                 <div class="skills-list">
                   <div class="row-left">
                     <ul>
@@ -78,6 +81,7 @@
                   </div>
                 </div>
               </div>
+            </div>
 
           </div>
            <div class="icon text-center">
@@ -88,7 +92,7 @@
 
 
         <!-- Contacts Page Begin -->
-        <div class="contact">
+        <div id = "contact" class="contact">
           <h2 class="section-header">Contact</h2>
             <div class="contact-content">
                 <div>
@@ -99,16 +103,16 @@
                   </ul>
                   <hr>
                   <ul class="social-media-list">
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li id = "linkedin"><a href="#" target="_blank" class="contact-icon">
                       <i class="fab fa-linkedin" aria-hidden="true"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li id = "github"><a href="#" target="_blank" class="contact-icon">
                       <i class="fab fa-github" aria-hidden="true"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li id = "hackerrank"><a href="#" target="_blank" class="contact-icon">
                       <i class="fab fa-hackerrank" aria-hidden="true"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li id = "freecodecamp"><a href="#" target="_blank" class="contact-icon">
                       <i class="fab fa-free-code-camp" aria-hidden="true"></i></a>
                     </li>
                   </ul>
