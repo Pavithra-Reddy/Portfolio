@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Sanchez|Poppins|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Sanchez|Poppins|Merienda|Tourney|Chivo");
 html {
   position: relative;
   height: 100%;
@@ -38,11 +38,9 @@ p {
   margin-bottom:0px;
 }
 
-.navbar .navbar-default .navbar-fixed-top{
-
-}
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
+  font-family: "Chivo", Lato;
   font-weight: 500;
   font-size: 1em;
   text-transform: uppercase;
@@ -142,4 +140,130 @@ h2 {
 
 .row-right {
   float : right;
+}
+
+
+/* Contact */
+
+.contact {
+  padding-top: 10%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Tourney', sans-serif;
+  color: #ff6700;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+hr {
+  border-color: #ff6700;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #ff6700;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
 }
