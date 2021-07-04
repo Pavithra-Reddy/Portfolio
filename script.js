@@ -21,12 +21,12 @@ $(document).ready(function() {
 
   $("#scrollIconAbout").click(function(e) {
     e.preventDefault();
-    $.scrollTo($("#experience"), 1000);
+    $.scrollTo($("#contact"), 1000);
   });
 
   $("#nav-about").click(function(e) {
     e.preventDefault();
-    $.scrollTo($("#contact"), 1000);
+    $.scrollTo($("#about"), 1000);
   });
 
   $("#nav-experience").click(function(e) {
