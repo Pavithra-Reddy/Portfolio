@@ -13,7 +13,7 @@ $(document).ready(function() {
     e.preventDefault();
     $.scrollTo(0, 1000);
   });
-  
+
   $("#scrollIconHome").click(function(e) {
     e.preventDefault();
     $.scrollTo($("#about"), 1000);
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
   $("#nav-about").click(function(e) {
     e.preventDefault();
-    $.scrollTo($("#about"), 1000);
+    $.scrollTo($("#contact"), 1000);
   });
 
   $("#nav-experience").click(function(e) {
