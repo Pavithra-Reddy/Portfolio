@@ -44,10 +44,6 @@ $(document).ready(function() {
     $.scrollTo($("#contact"), 1000);
   });
 
-  $("#nav-resume").click(function(e) {
-    window.open('https://drive.google.com/file/d/1xt2S5RkTozb8k-mJKbQZ696L9HjYplIr/view?usp=sharing', '_blank');
-  });
-
   $("#linkedin").click(function(e) {
     window.open('https://www.linkedin.com/in/pavithra-reddy', '_blank');
   });
