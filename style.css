@@ -162,6 +162,7 @@ h2 {
 
 .contact {
   padding-top: 10%;
+  padding-bottom:10%;
 }
 
 .section-header {
@@ -199,14 +200,6 @@ h2 {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
 }
 
 .gmail {
